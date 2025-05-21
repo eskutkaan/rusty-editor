@@ -382,7 +382,7 @@ impl eframe::App for TextEditorApp {
 fn main() {
     let options = eframe::NativeOptions::default();
     eframe::run_native(
-        "Rust Text Editor",
+        "rusty-editor",
         options,
         Box::new(|cc| {
             let mut app = TextEditorApp::default();
