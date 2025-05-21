@@ -1,0 +1,10 @@
+[package]
+name = "rusty-editor"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = { version = "0.27", features = ["default"] }
+egui = "0.27"
+rfd = "0.14"
+syntect = "5.1"
